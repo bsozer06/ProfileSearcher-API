@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Searching App</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Profile Searching</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h2>Profile Searching</h2>
+                <p class="lead">To search a profile, start typing.</p>
+                <input type="text" id="search-profile" class="form-control">
+                <div id="alert" class="alert-danger" role="alert"></div>
+            </div>
+        </div>
+        <div id="profile-container"></div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="profile.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+
+
+    <!-- <div class="card card-body">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" class="img-thumbnail"></a>
+            </div>
+            <div class="col-md-9">
+                <h4>Contact</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">name: ${profile.name}</li>
+                    <li class="list-group-item">surname: ${profile.username}</li>
+                    <li class="list-group-item">email: ${profile.email}</li>
+                    <li class="list-group-item">address: 
+                        ${profile.address.street}
+                        ${profile.address.city}
+                        ${profile.address.zipcode}
+                        ${profile.address.suite}
+                    </li>
+                    <li class="list-group-item">phone: ${profile.phone}</li>
+                    <li class="list-group-item">website: ${profile.website}</li>
+                </ul>
+                <h4>User Todo List</h4>
+                <ul id="todo" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+
+</body>
+
+</html>
